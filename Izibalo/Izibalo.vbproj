@@ -70,16 +70,16 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="List.Designer.vb">
-      <DependentUpon>List.vb</DependentUpon>
+    <Compile Include="PreviousCachesList.Designer.vb">
+      <DependentUpon>PreviousCachesList.vb</DependentUpon>
     </Compile>
-    <Compile Include="List.vb">
+    <Compile Include="PreviousCachesList.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="List2.Designer.vb">
-      <DependentUpon>List2.vb</DependentUpon>
+    <Compile Include="LocationList.Designer.vb">
+      <DependentUpon>LocationList.vb</DependentUpon>
     </Compile>
-    <Compile Include="List2.vb">
+    <Compile Include="LocationList.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.vb">
@@ -89,10 +89,10 @@
       <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Map.Designer.vb">
-      <DependentUpon>Map.vb</DependentUpon>
+    <Compile Include="CachesMap.Designer.vb">
+      <DependentUpon>CachesMap.vb</DependentUpon>
     </Compile>
-    <Compile Include="Map.vb">
+    <Compile Include="CachesMap.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -110,31 +110,37 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PlayerProfile.Designer.vb">
+      <DependentUpon>PlayerProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviousCachesMap.Designer.vb">
+      <DependentUpon>PreviousCachesMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreviousCachesMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Profile.Designer.vb">
       <DependentUpon>Profile.vb</DependentUpon>
     </Compile>
     <Compile Include="Profile.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserMap.Designer.vb">
-      <DependentUpon>UserMap.vb</DependentUpon>
-    </Compile>
-    <Compile Include="UserMap.vb">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="List.resx">
-      <DependentUpon>List.vb</DependentUpon>
+    <EmbeddedResource Include="PreviousCachesList.resx">
+      <DependentUpon>PreviousCachesList.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="List2.resx">
-      <DependentUpon>List2.vb</DependentUpon>
+    <EmbeddedResource Include="LocationList.resx">
+      <DependentUpon>LocationList.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Map.resx">
-      <DependentUpon>Map.vb</DependentUpon>
+    <EmbeddedResource Include="CachesMap.resx">
+      <DependentUpon>CachesMap.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -142,11 +148,14 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PlayerProfile.resx">
+      <DependentUpon>PlayerProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviousCachesMap.resx">
+      <DependentUpon>PreviousCachesMap.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserMap.resx">
-      <DependentUpon>UserMap.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
