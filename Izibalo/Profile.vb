@@ -7,6 +7,7 @@
 
     Private Sub Profile_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PictureBox2.Parent = PictureBox4
+        PictureBox6.Parent = PictureBox4
         PictureBox7.Parent = PictureBox4
     End Sub
 

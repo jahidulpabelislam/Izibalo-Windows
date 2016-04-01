@@ -74,6 +74,7 @@ Partial Class CachesMap
         '
         'PictureBox4
         '
+        Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox4.Name = "PictureBox4"
@@ -84,10 +85,13 @@ Partial Class CachesMap
         '
         'PictureBox6
         '
+        Me.PictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(1141, 24)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(100, 99)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 5
         Me.PictureBox6.TabStop = False
         '
@@ -95,7 +99,7 @@ Partial Class CachesMap
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(50, 24)
+        Me.PictureBox5.Location = New System.Drawing.Point(51, 24)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(129, 100)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -106,7 +110,7 @@ Partial Class CachesMap
         '
         Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(552, 24)
+        Me.PictureBox7.Location = New System.Drawing.Point(555, 24)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(257, 87)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -122,7 +126,7 @@ Partial Class CachesMap
         Me.Label1.TabIndex = 19
         Me.Label1.Text = "You Are Here!"
         '
-        'Map
+        'CachesMap
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -135,7 +139,7 @@ Partial Class CachesMap
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Map"
+        Me.Name = "CachesMap"
         Me.Text = "Map"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()

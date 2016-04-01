@@ -42,10 +42,12 @@ Partial Class PreviousCachesMap
         '
         'PictureBox6
         '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(1141, 24)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(100, 99)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 9
         Me.PictureBox6.TabStop = False
         '
@@ -82,21 +84,27 @@ Partial Class PreviousCachesMap
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(540, 178)
+        Me.Button1.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(513, 171)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(95, 37)
         Me.Button1.TabIndex = 14
         Me.Button1.Text = "Map"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(746, 178)
+        Me.Button2.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold)
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(760, 171)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(95, 37)
         Me.Button2.TabIndex = 15
         Me.Button2.Text = "List"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'PictureBox2
         '

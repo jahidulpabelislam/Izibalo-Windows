@@ -7,6 +7,7 @@
 
     Private Sub UserMap_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PictureBox7.Parent = PictureBox4
+        PictureBox6.Parent = PictureBox4
         PictureBox2.Parent = PictureBox4
         PictureBox5.Parent = PictureBox1
     End Sub

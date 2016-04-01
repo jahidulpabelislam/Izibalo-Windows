@@ -44,5 +44,17 @@
 
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         PictureBox1.Parent = PictureBox2
+        Label1.Parent = PictureBox2
+        Label2.Parent = PictureBox2
+        Label3.Parent = PictureBox2
+        CheckBox1.Parent = PictureBox2
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = False Then
+            TextBox2.PasswordChar = "*"
+        ElseIf CheckBox1.Checked = True Then
+            TextBox2.PasswordChar = ""
+        End If
     End Sub
 End Class

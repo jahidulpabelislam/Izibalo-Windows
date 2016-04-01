@@ -89,20 +89,24 @@ Partial Class PreviousCachesList
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(773, 180)
+        Me.Button2.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold)
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(771, 168)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(90, 35)
         Me.Button2.TabIndex = 17
         Me.Button2.Text = "List"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(521, 181)
+        Me.Button1.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold)
+        Me.Button1.ForeColor = System.Drawing.Color.White
+        Me.Button1.Location = New System.Drawing.Point(518, 168)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(90, 35)
         Me.Button1.TabIndex = 16
         Me.Button1.Text = "Map"
         Me.Button1.UseVisualStyleBackColor = False
@@ -120,10 +124,12 @@ Partial Class PreviousCachesList
         '
         'PictureBox6
         '
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(1141, 24)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(100, 99)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 19
         Me.PictureBox6.TabStop = False
         '
@@ -328,7 +334,7 @@ Partial Class PreviousCachesList
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 25.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(620, 139)
+        Me.Label28.Location = New System.Drawing.Point(614, 136)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(135, 39)
         Me.Label28.TabIndex = 84
