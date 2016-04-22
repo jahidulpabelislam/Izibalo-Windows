@@ -376,9 +376,9 @@ Partial Class PreviousCachesList
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.Label20.Location = New System.Drawing.Point(1047, 455)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(122, 20)
+        Me.Label20.Size = New System.Drawing.Size(120, 20)
         Me.Label20.TabIndex = 95
-        Me.Label20.Text = "Plays at Midfield"
+        Me.Label20.Text = "Plays in Midfield"
         '
         'Label21
         '
@@ -494,6 +494,7 @@ Partial Class PreviousCachesList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1354, 733)
         Me.Controls.Add(Me.PictureBox21)
         Me.Controls.Add(Me.PictureBox19)

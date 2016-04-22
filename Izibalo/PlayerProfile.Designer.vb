@@ -53,6 +53,7 @@ Partial Class PlayerProfile
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -119,7 +120,7 @@ Partial Class PlayerProfile
         '
         Me.PictureBox19.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
-        Me.PictureBox19.Location = New System.Drawing.Point(995, 148)
+        Me.PictureBox19.Location = New System.Drawing.Point(995, 215)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(4, 466)
         Me.PictureBox19.TabIndex = 118
@@ -128,7 +129,7 @@ Partial Class PlayerProfile
         'PictureBox16
         '
         Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
-        Me.PictureBox16.Location = New System.Drawing.Point(794, 201)
+        Me.PictureBox16.Location = New System.Drawing.Point(794, 268)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(195, 126)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -139,7 +140,7 @@ Partial Class PlayerProfile
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(824, 158)
+        Me.Label11.Location = New System.Drawing.Point(824, 225)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(149, 25)
         Me.Label11.TabIndex = 116
@@ -148,7 +149,7 @@ Partial Class PlayerProfile
         'Label19
         '
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label19.Location = New System.Drawing.Point(1009, 198)
+        Me.Label19.Location = New System.Drawing.Point(1009, 265)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(168, 132)
         Me.Label19.TabIndex = 115
@@ -159,7 +160,7 @@ Partial Class PlayerProfile
         '
         Me.PictureBox22.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox22.Image = CType(resources.GetObject("PictureBox22.Image"), System.Drawing.Image)
-        Me.PictureBox22.Location = New System.Drawing.Point(784, 148)
+        Me.PictureBox22.Location = New System.Drawing.Point(784, 215)
         Me.PictureBox22.Name = "PictureBox22"
         Me.PictureBox22.Size = New System.Drawing.Size(4, 466)
         Me.PictureBox22.TabIndex = 114
@@ -169,7 +170,7 @@ Partial Class PlayerProfile
         '
         Me.Label27.AutoSize = True
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(1060, 158)
+        Me.Label27.Location = New System.Drawing.Point(1060, 225)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(72, 25)
         Me.Label27.TabIndex = 113
@@ -178,7 +179,7 @@ Partial Class PlayerProfile
         'PictureBox9
         '
         Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
-        Me.PictureBox9.Location = New System.Drawing.Point(572, 191)
+        Me.PictureBox9.Location = New System.Drawing.Point(572, 258)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(616, 4)
         Me.PictureBox9.TabIndex = 112
@@ -188,7 +189,7 @@ Partial Class PlayerProfile
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(572, 145)
+        Me.PictureBox5.Location = New System.Drawing.Point(572, 212)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(616, 5)
         Me.PictureBox5.TabIndex = 111
@@ -198,7 +199,7 @@ Partial Class PlayerProfile
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(1183, 148)
+        Me.PictureBox3.Location = New System.Drawing.Point(1183, 215)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(5, 465)
         Me.PictureBox3.TabIndex = 110
@@ -258,7 +259,7 @@ Partial Class PlayerProfile
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(572, 148)
+        Me.PictureBox1.Location = New System.Drawing.Point(572, 215)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(5, 469)
         Me.PictureBox1.TabIndex = 123
@@ -268,7 +269,7 @@ Partial Class PlayerProfile
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(626, 158)
+        Me.Label4.Location = New System.Drawing.Point(626, 225)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(110, 25)
         Me.Label4.TabIndex = 124
@@ -277,7 +278,7 @@ Partial Class PlayerProfile
         'Label6
         '
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label6.Location = New System.Drawing.Point(583, 198)
+        Me.Label6.Location = New System.Drawing.Point(583, 265)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(195, 129)
         Me.Label6.TabIndex = 125
@@ -287,7 +288,7 @@ Partial Class PlayerProfile
         'PictureBox8
         '
         Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(572, 333)
+        Me.PictureBox8.Location = New System.Drawing.Point(572, 400)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(616, 2)
         Me.PictureBox8.TabIndex = 126
@@ -296,7 +297,7 @@ Partial Class PlayerProfile
         'PictureBox10
         '
         Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
-        Me.PictureBox10.Location = New System.Drawing.Point(794, 341)
+        Me.PictureBox10.Location = New System.Drawing.Point(794, 408)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(195, 126)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -306,7 +307,7 @@ Partial Class PlayerProfile
         'PictureBox12
         '
         Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
-        Me.PictureBox12.Location = New System.Drawing.Point(572, 473)
+        Me.PictureBox12.Location = New System.Drawing.Point(572, 540)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(616, 2)
         Me.PictureBox12.TabIndex = 129
@@ -315,7 +316,7 @@ Partial Class PlayerProfile
         'PictureBox13
         '
         Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
-        Me.PictureBox13.Location = New System.Drawing.Point(572, 613)
+        Me.PictureBox13.Location = New System.Drawing.Point(572, 680)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(616, 5)
         Me.PictureBox13.TabIndex = 130
@@ -324,7 +325,7 @@ Partial Class PlayerProfile
         'Label7
         '
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label7.Location = New System.Drawing.Point(583, 338)
+        Me.Label7.Location = New System.Drawing.Point(583, 405)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(195, 129)
         Me.Label7.TabIndex = 131
@@ -334,7 +335,7 @@ Partial Class PlayerProfile
         'Label8
         '
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label8.Location = New System.Drawing.Point(583, 478)
+        Me.Label8.Location = New System.Drawing.Point(583, 545)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(195, 129)
         Me.Label8.TabIndex = 132
@@ -344,7 +345,7 @@ Partial Class PlayerProfile
         'Label9
         '
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label9.Location = New System.Drawing.Point(1005, 338)
+        Me.Label9.Location = New System.Drawing.Point(1005, 405)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(172, 129)
         Me.Label9.TabIndex = 133
@@ -354,7 +355,7 @@ Partial Class PlayerProfile
         'Label10
         '
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
-        Me.Label10.Location = New System.Drawing.Point(1005, 479)
+        Me.Label10.Location = New System.Drawing.Point(1005, 546)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(172, 128)
         Me.Label10.TabIndex = 134
@@ -364,19 +365,31 @@ Partial Class PlayerProfile
         'PictureBox11
         '
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
-        Me.PictureBox11.Location = New System.Drawing.Point(794, 481)
+        Me.PictureBox11.Location = New System.Drawing.Point(794, 548)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(195, 126)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox11.TabIndex = 135
         Me.PictureBox11.TabStop = False
         '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(581, 145)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(189, 31)
+        Me.Label12.TabIndex = 136
+        Me.Label12.Text = "Player Profile"
+        '
         'PlayerProfile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.PictureBox9)
+        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.PictureBox11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
@@ -398,7 +411,6 @@ Partial Class PlayerProfile
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.PictureBox22)
         Me.Controls.Add(Me.Label27)
-        Me.Controls.Add(Me.PictureBox9)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.Label5)
@@ -460,4 +472,5 @@ Partial Class PlayerProfile
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents PictureBox11 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 End Class

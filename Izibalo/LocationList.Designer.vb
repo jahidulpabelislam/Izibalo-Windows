@@ -157,9 +157,9 @@ Partial Class LocationList
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(927, 446)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(122, 20)
+        Me.Label23.Size = New System.Drawing.Size(120, 20)
         Me.Label23.TabIndex = 68
-        Me.Label23.Text = "Plays at Midfield"
+        Me.Label23.Text = "Plays in Midfield"
         '
         'Label24
         '
@@ -224,7 +224,7 @@ Partial Class LocationList
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(972, 202)
+        Me.Label2.Location = New System.Drawing.Point(957, 201)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(72, 25)
         Me.Label2.TabIndex = 81
@@ -334,6 +334,7 @@ Partial Class LocationList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1354, 733)
         Me.Controls.Add(Me.PictureBox16)
         Me.Controls.Add(Me.PictureBox15)
