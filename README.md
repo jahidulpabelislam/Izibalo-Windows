@@ -1,4 +1,3 @@
-# IzibaloWindows
-Izibalo Windows - Windows Prototype for a Geo-Caching App
+# Izibalo for Windows
 
-A Windows Prototype for a Geo-Caching App I Designed For A Unit at 2nd Year Of Degree
+For 2nd year coursework for my degree (2016) Using Visual Basic I had to create a Windows App High Fidelity Prototype which integrates an aspect of geo caching into it.
